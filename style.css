@@ -1,0 +1,41 @@
+.box
+{
+    background-color: beige;
+    margin-top: 150px;
+    margin-left: 110px;
+    margin-right: 100px;
+    padding: 200px;
+    position: relative;
+}
+
+.box h1
+{
+    color: brown;
+    font-size: 40px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+.container {
+
+    
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    width: 50%; /* Adjust the width as a percentage of the .box width */
+    max-width: 900px; /* Set a maximum width if needed */
+    padding: 100px; /* Adjust padding as needed */
+    box-sizing: border-box;
+}
+
+.password{
+    height: 30px;
+}
+
+.CheckPassword{
+    margin-top: 10%;
+    height: 30px;
+}
